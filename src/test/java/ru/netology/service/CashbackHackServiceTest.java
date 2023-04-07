@@ -1,9 +1,9 @@
 package ru.netology.service;
 
-import junit.framework.TestCase;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class CashbackHackServiceTest extends TestCase {
+public class CashbackHackServiceTest {
 
     CashbackHackService service = new CashbackHackService();
 
